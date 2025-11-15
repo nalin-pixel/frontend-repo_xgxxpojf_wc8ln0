@@ -49,32 +49,32 @@ const Features = () => {
         <div className="text-center mb-12">
           <span className="inline-flex items-center gap-2 rounded-full bg-sky-50 text-sky-700 border border-sky-200 px-4 py-1 text-sm font-medium">Funcionalidades</span>
           <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-900">Coaching de saúde + nutrição inteligente</h2>
-          <p className="mt-3 text-gray-600 max-w-2xl mx-auto">Tudo que você precisa para criar hábitos saudáveis, acompanhar sua alimentação e evoluir com apoio da IA.</p>
+          <p className="mt-3 text-gray-600 max-w-2xl mx-auto">Tudo o que precisas para criar hábitos saudáveis, acompanhar a tua alimentação e evoluir com apoio da IA.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
           <FeatureCard
             icon={HeartPulse}
             title="Coaching de Saúde"
-            description="Planos, metas e hábitos diários que se adaptam ao seu estilo de vida."
+            description="Planos, metas e hábitos diários que se adaptam ao teu estilo de vida."
             items={[
               'Planos e metas personalizadas',
-              'Hábitos: água, sono, meditação e exercícios',
+              'Hábitos: água, sono, meditação e exercício',
               'Diário de humor e energia',
               'Coach virtual por IA motivacional',
-              'Sessões guiadas de meditação, respiração e alongamento',
+              'Sessões guiadas de meditação, respiração e alongamentos',
             ]}
             color="emerald"
           />
 
           <FeatureCard
             icon={Salad}
-            title="Rastreamento Nutricional"
-            description="Registre refeições e acompanhe calorias e macros com facilidade."
+            title="Acompanhamento Nutricional"
+            description="Regista refeições e acompanha calorias e macros com facilidade."
             items={[
               'Contagem de calorias e macronutrientes',
-              'Registro de refeições',
-              'Reconhecimento por foto ou voz',
+              'Registo de refeições',
+              'Reconhecimento por fotografia ou voz',
               'Metas calóricas automáticas',
               'Gráficos e relatórios inteligentes',
             ]}
@@ -84,10 +84,10 @@ const Features = () => {
           <FeatureCard
             icon={Brain}
             title="IA Avançada"
-            description="Recomendações que se ajustam ao seu humor, atividade e progresso."
+            description="Recomendações que se ajustam ao teu humor, atividade e progresso."
             items={[
-              'Coach adapta dicas conforme alimentação',
-              'Metas se ajustam automaticamente',
+              'O coach adapta dicas conforme a alimentação',
+              'Metas ajustam-se automaticamente',
               'Identifica padrões e gera insights personalizados',
             ]}
             color="violet"
@@ -95,13 +95,13 @@ const Features = () => {
         </div>
 
         <div className="mt-10 grid md:grid-cols-3 gap-6">
-          <FeatureCard icon={Droplets} title="Hidratação" description="Acompanhe sua ingestão diária de água." />
-          <FeatureCard icon={Moon} title="Sono" description="Estabeleça rotinas e durma melhor." />
-          <FeatureCard icon={Dumbbell} title="Exercícios" description="Planos de treino com progressão." />
-          <FeatureCard icon={Smile} title="Humor" description="Registre emoções e níveis de energia." />
-          <FeatureCard icon={Camera} title="Foto" description="Reconhecimento de alimentos por imagem." />
-          <FeatureCard icon={Mic} title="Voz" description="Registre refeições usando comandos de voz." />
-          <FeatureCard icon={BarChart3} title="Relatórios" description="Visão clara da sua evolução." />
+          <FeatureCard icon={Droplets} title="Hidratação" description="Acompanha a ingestão diária de água." />
+          <FeatureCard icon={Moon} title="Sono" description="Estabelece rotinas e dorme melhor." />
+          <FeatureCard icon={Dumbbell} title="Exercício" description="Planos de treino com progressão." />
+          <FeatureCard icon={Smile} title="Humor" description="Regista emoções e níveis de energia." />
+          <FeatureCard icon={Camera} title="Fotografia" description="Reconhecimento de alimentos por imagem." />
+          <FeatureCard icon={Mic} title="Voz" description="Regista refeições usando comandos de voz." />
+          <FeatureCard icon={BarChart3} title="Relatórios" description="Visão clara da tua evolução." />
           <FeatureCard icon={Target} title="Metas" description="Ajustes automáticos e inteligentes." />
           <FeatureCard icon={Sparkles} title="Coach IA" description="Motivação diária e insights práticos." />
         </div>

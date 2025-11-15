@@ -4,35 +4,35 @@ import { Check } from 'lucide-react';
 const plans = [
   {
     name: 'Essentials',
-    price: 'R$ 19/mês',
+    price: '€ 19/mês',
     highlight: false,
     features: [
-      'Rastreamento básico de calorias',
+      'Acompanhamento básico de calorias',
       'Plano simples de hábitos',
-      'Acesso limitado ao coach IA',
-      'Ideal para iniciantes',
+      'Acesso limitado ao coach por IA',
+      'Ideal para começar',
     ],
     cta: 'Escolher Essentials',
   },
   {
     name: 'Wellio Plus',
-    subtitle: 'Melhor Custo-Benefício',
-    price: 'R$ 39/mês',
+    subtitle: 'Mais vendido',
+    price: '€ 39/mês',
     highlight: true,
     features: [
       'Tudo do Essentials +',
-      'Acesso completo ao coach IA',
+      'Acesso completo ao coach por IA',
       'Programas guiados premium',
       'Relatórios avançados de progresso',
-      'Reconhecimento de comida por foto',
+      'Reconhecimento de alimentos por fotografia',
       'Ajustes automáticos de metas pela IA',
       'Recomendações inteligentes',
     ],
-    cta: 'Quero o Wellio Plus',
+    cta: 'Escolher Wellio Plus',
   },
   {
     name: 'Wellio Premium',
-    price: 'R$ 69/mês',
+    price: '€ 69/mês',
     highlight: false,
     features: [
       'Tudo do Plus +',
@@ -42,7 +42,7 @@ const plans = [
       'Suporte prioritário',
       'Programas e desafios exclusivos',
     ],
-    cta: 'Assinar Premium',
+    cta: 'Subscrever Premium',
   },
 ];
 
@@ -51,9 +51,9 @@ const Pricing = () => {
     <section id="pricing" className="py-24 bg-gradient-to-b from-white to-emerald-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <span className="inline-flex items-center gap-2 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-1 text-sm font-medium">Planos e Preços</span>
-          <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-900">Escolha o seu Wellio</h2>
-          <p className="mt-3 text-gray-600 max-w-2xl mx-auto">O plano Plus é o melhor equilíbrio entre recursos e investimento.</p>
+          <span className="inline-flex items-center gap-2 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-1 text-sm font-medium">Planos e preços</span>
+          <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-900">Escolhe o teu Wellio</h2>
+          <p className="mt-3 text-gray-600 max-w-2xl mx-auto">O plano Plus é o equilíbrio ideal entre funcionalidades e investimento.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">

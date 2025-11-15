@@ -17,10 +17,10 @@ function App() {
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700">
             <a href="#features" className="hover:text-gray-900">Funcionalidades</a>
             <a href="#pricing" className="hover:text-gray-900">Planos</a>
-            <a href="#trial" className="hover:text-gray-900">Free Trial</a>
+            <a href="#trial" className="hover:text-gray-900">Período experimental</a>
           </nav>
           <a href="#pricing" className="inline-flex items-center justify-center rounded-xl bg-emerald-600 text-white px-4 py-2 text-sm font-semibold shadow hover:bg-emerald-700 transition">
-            Começar Free Trial
+            Começar Período Experimental
           </a>
         </div>
       </header>
@@ -37,11 +37,11 @@ function App() {
 
       <footer className="py-10 bg-white border-t">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-600">
-          <div>© {new Date().getFullYear()} Wellio — Bem-estar inteligente</div>
+          <div>© {new Date().getFullYear()} Wellio — Bem‑estar inteligente</div>
           <div className="flex items-center gap-6">
             <a href="#features" className="hover:text-gray-900">Funcionalidades</a>
             <a href="#pricing" className="hover:text-gray-900">Planos</a>
-            <a href="#trial" className="hover:text-gray-900">Free Trial</a>
+            <a href="#trial" className="hover:text-gray-900">Período experimental</a>
           </div>
         </div>
       </footer>
